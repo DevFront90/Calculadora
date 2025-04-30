@@ -11,7 +11,7 @@
 
 @media screen and (max-width:580px) {
     .botoes {
-        height: 340px;
+        height: 338px;
     }
 
     .btn {
@@ -23,7 +23,7 @@
 
      .modo-switch {
         position: absolute;
-        top: 5px;
+        top: 10px;
         right:20px;
         z-index: 1;
     }
