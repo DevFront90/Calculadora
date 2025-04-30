@@ -24,6 +24,7 @@
      .modo-switch {
         position: absolute;
         top: 10px;
+        bottom:1;
         right:20px;
         z-index: 1;
     }
