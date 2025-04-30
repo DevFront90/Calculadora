@@ -22,6 +22,8 @@
     }
 
     .modo-switch {
+        right:none;
+        left:10px;
         top: 10px;
      }
 }
