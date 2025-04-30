@@ -1,0 +1,10 @@
+/* Media Queries */
+
+@media screen and (max-width:938px ){
+    .modo-switch input[type=range] {
+        width: 60px;
+      
+    }
+
+   
+}

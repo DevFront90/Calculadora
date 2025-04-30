@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/calculator.png"/>
+    <title>Calculadora</title>
+    <!--link css-->
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/resete.css"/>
+    <link rel="stylesheet" href="./css/media.css"/>
+    <!---->
+</head>
+<body class="modo-gradiente ">
+    <div class="container">
+
+        <div class="modo-switch">
+             <input type="range" min="1" max="3" value="3" id="switchModo" oninput="trocarModoPorSlider(this.value)"/>
+        </div>
+
+        <div class="calculadora">
+
+            <div class="display">
+                 <div class="historico">1 + 1</div>
+                 <div class="resultado">0</div>
+            </div>
+
+        </div>
+
+        <div class="botoes">
+            <button class="btn" onclick="limpar()">CE</button>
+            <button class="btn" onclick="voltar()">C</button>
+            <button class="btn" onclick="porcentagem()">%</button>
+            <button class="btn operador" onclick="adicionarOperador('÷')">÷</button>
+
+            <button class="btn" onclick="adicionarNumero('7')">7</button>
+            <button class="btn" onclick="adicionarNumero('8')">8</button>
+            <button class="btn" onclick="adicionarNumero('9')">9</button>
+            <button class="btn operador" onclick="adicionarOperador('x')">X</button>
+
+            <button class="btn"  onclick="adicionarNumero('4')">4</button>
+            <button class="btn"  onclick="adicionarNumero('5')">5</button>
+            <button class="btn"  onclick="adicionarNumero('6')">6</button>
+            <button class="btn operador" onclick="adicionarOperador('-')">-</button>
+
+            <button class="btn"  onclick="adicionarNumero('1')">1</button>
+            <button class="btn"  onclick="adicionarNumero('2')">2</button>
+            <button class="btn"  onclick="adicionarNumero('3')">3</button>
+            <button class="btn operador" onclick="adicionarOperador('+')">+</button>
+
+            <button class="btn" onclick="trocarSinal()" >+/-</button>
+            <button class="btn"  onclick="adicionarNumero('0')">0</button>
+            <button class="btn"  onclick="adicionarPonto('.')">.</button>
+            <button class="btn igual" onclick="calcularResultado()">=</button>
+
+        </div>
+
+    </div>
+
+    <!--script JS-->
+     <script src="./js/script.js"></script>
+    <!---->
+</body>
+</html>
