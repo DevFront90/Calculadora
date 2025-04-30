@@ -125,6 +125,10 @@ body.modo-light {
     background: #cac9c9;
 }
 
+body.modo-light .modo-switch input[type=range] {
+    background: #b1b0b0;
+}
+
 body.modo-light .calculadora, .modo-light .botoes {
     background:#ffff;
 }
