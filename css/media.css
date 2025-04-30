@@ -23,14 +23,14 @@
 
      .modo-switch {
         position: absolute;
-        bottom:5;
+        bottom:2;
         right:20px;
         z-index: 1;
     }
 
      .display {
-       margin-bottom:0px;
-       margin-top:30px;
+       margin-bottom:20pxpx;
+       
       
         
     }
