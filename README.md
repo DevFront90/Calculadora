@@ -3,7 +3,7 @@
 Uma calculadora simples e estilizada com suporte a **modo claro, modo escuro e modo gradiente**!  
 Feita com **HTML, CSS e JavaScript**, ideal para praticar manipulação do DOM e estilos dinâmicos.
 
-![Calculadora](./img/calculadora.png)
+![Calculadora](./img/Calculadora.png)
 
 ---
 
