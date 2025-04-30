@@ -21,17 +21,16 @@
         
     }
 
+     .modo-switch {
+        position: absolute;
+        top: 3px;
+        right:20px;
+        z-index: 1;
+    }
+
    
 }
 
-@media screen and (max-width:360px) {
-    .modo-switch {
-        position: absolute;
-        top: 3px;
-        left: 10px;
-        right:none;
-        z-index: 1;
-    }
-}
+
 
 
